@@ -1,3 +1,3 @@
 function reverse(num){
-    return num;
+    return parseInt(num.toString().split('').reverse().join(''));
 }
