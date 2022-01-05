@@ -1,3 +1,1 @@
-function reverse(num){
-    return parseInt(num.toString().split('').reverse().join(''));
-}
+module.exports = function reverse(number) {return parseInt(number.toString().split('').reverse().join(''));}
